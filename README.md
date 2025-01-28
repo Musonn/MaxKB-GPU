@@ -2,6 +2,8 @@
 
 This project is designed to run **MaxKB** alongside **Ollama** with GPU support, using Docker containers. **MaxKB** will leverage a local large language model provided by Ollama, which operates within an NVIDIA CUDA-enabled Docker environment for fast inference.
 
+![Cool Demo](assets/demo_hit_and_fail.gif)
+
 ---
 
 ## About MaxDB, Ollama, and NVIDIA CUDA Docker
@@ -110,7 +112,7 @@ ollama serve
 
 - **Model Name**: Set any name for the model.
 - **Model Type**: Select "Large Language Model."
-- **Base Model**: Choose a model compatible with your GPU.
+- **Base Model**: Choose a model compatible with your GPU. I chose Deepseek-r1.
 - **API URL**: Enter `http://ollama-gpu:11434`.
 - **API Key**: Arbitary.
 
